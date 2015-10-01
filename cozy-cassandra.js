@@ -8,9 +8,9 @@ function fpath (f) {
 }
 
 workshopper({
-    name        : ‘cozy-cassandra’,
-    title       : ‘cassandra demo’,
-    subtitle    : 'Learn cassandra lessons’,
+    name        : 'cozy-cassandra',
+    title       : 'cozy-cassandra',
+    subtitle    : 'Drive Thru Cassandra',
     appDir      : __dirname,
     menuItems   : [],
     exerciseDir : fpath('./exercises/')

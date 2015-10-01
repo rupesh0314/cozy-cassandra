@@ -1,4 +1,4 @@
-var through2 = require('through2');
+/*var through2 = require('through2');
 var hyperquest = require('hyperquest');
 var bl = require('bl');
 var exercise = require('workshopper-exercise')();
@@ -86,3 +86,4 @@ function query (mode) {
 exercise = comparestdout(exercise)
 
 module.exports = exercise;
+*/

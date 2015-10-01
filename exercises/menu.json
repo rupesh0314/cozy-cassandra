@@ -1,3 +1,5 @@
 [
-    "TEST_EXERCISE"
+    "hello_casandra",
+"cluster_connect",
+"noddy_nodes"
 ]

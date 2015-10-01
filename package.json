@@ -3,9 +3,8 @@
   "version": "1.0.4",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rupesh0314/cozy-cassandra
+    "url": "https://github.com/rupesh0314/cozy-cassandra.git”
   },
-  "license": "BSD-3-Clause",
   "bin": “./cozy-cassandra.js",
   "dependencies": {
     "workshopper": "1.x",
