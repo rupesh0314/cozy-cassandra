@@ -11,4 +11,5 @@ else
 console.log("cassandra started");
 }
 })
+//Exercise = comparestdout(Exercise);
 
