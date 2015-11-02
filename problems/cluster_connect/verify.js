@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 var exec=require('child_process').exec
-//exec('$CASSANDRA_HOME/bin/cassandra',function(err,stdout,stderr){})
-exec('/Users/rupeshreddyt/Documents/study/WORK/CSC695_MURALI/cassandra/apache-cassandra-2.2.1/bin/cqlsh',function(err,stdout,stderr)
+exec('ps auxw|grep "[c]qlsh"',function(err,stdout,stderr)
 {
-if (err)
+var test=stdout
+if (test.match("cqlsh"))
 {
-console.log(stdout);
+//console.log(stdout);
  console.log("Cluster Connection Successful");
 
 }
